@@ -1,0 +1,6 @@
+A tabela "papel" deve ser inicialmente populada com os diferentes tipos de papéis que o sistema suporta.
+A tabela "usuario" deve armazenar informações precisas e atualizadas sobre cada usuário, incluindo nome e e-mail.
+A coluna "email" na tabela "usuario" deve ser única, para evitar que dois usuários compartilhem o mesmo e-mail.
+A tabela "login" deve armazenar informações precisas sobre quando cada usuário realizou o login, para fins de auditoria e segurança.
+As chaves estrangeiras nas tabelas "usuario" e "login" devem garantir que apenas os usuários e papéis existentes possam ser referenciados.
+Devem ser implementadas medidas de segurança adequadas para proteger as informações armazenadas no banco de dados, como criptografia de senhas e autenticação de usuários.
